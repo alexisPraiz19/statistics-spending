@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expenses chart component</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="balance">
+                <p>My balance</p>
+                <span class="balance-number">$921.48</span>
+            </div>
+
+            <img src="assets/images/logo.svg" alt="logo">
+        </header>
+
+        <div class="info">
+            <h2 class="last-days">Spending - last 7 days</h2>
+            
+            <ul class="statistics">
+                <li>
+                    <span class="amount">$17.45</span>
+                    <div class="bar mon"></div>
+                    <p class="day">mon</p>
+                </li>
+
+                <li>
+                    <span class="amount">$34.91</span>
+                    <div class="bar tue"></div>
+                    <p class="day">tue</p>
+                </li>
+
+                <li>
+                    <span class="amount">$52.36</span>
+                    <div class="bar wed active"></div>
+                    <p class="day">wed</p>
+                </li>
+
+                <li>
+                    <span class="amount">$31.07</span>
+                    <div class="bar thu"></div>
+                    <p class="day">thu</p>
+                </li>
+
+                <li>
+                    <span class="amount">$23.39</span>
+                    <div class="bar fri"></div>
+                    <p class="day">fri</p>
+                </li>
+
+                <li>
+                    <span class="amount">$43.28</span>
+                    <div class="bar sat"></div>
+                    <p class="day">sat</p>
+                </li>
+
+                <li>
+                    <span class="amount">$25.48</span>
+                    <div class="bar sun"></div>
+                    <p class="day">sun</p>
+                </li>
+            </ul>
+
+            <div class="result">
+                <div class="total-month">
+                    <p>Total this month</p>
+                    <h2 class="total">$978.33</h2>
+                </div>
+
+                <div class="comparison">
+                    <span class="percentage">+2,4%</span>
+                    <p>from last month</p>
+                </div>
+            </div>
+
+            <form action="#" id="form">
+                <ul class="form-ul">
+                    <li>
+                        <input type="number" name="mon">
+                        <p>mon</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="tue">
+                        <p>tue</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="wed">
+                        <p>wed</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="thu">
+                        <p>thu</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="fri">
+                        <p>fri</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="sat">
+                        <p>sat</p>
+                    </li>
+
+                    <li>
+                        <input type="number" name="sun">
+                        <p>sun</p>
+                    </li>
+                </ul>
+                
+                <button class="btn-send">send</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
