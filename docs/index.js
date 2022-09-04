@@ -5,7 +5,7 @@ const amount = document.querySelectorAll('.amount'),
       form   = document.getElementById('form');
 
 function getValue(tag){    
-    tag.addEventListener('change',e=>{
+    tag.addEventListener('blur',e=>{
        let value = e.target.value;
        let name  = e.target.name;
     
